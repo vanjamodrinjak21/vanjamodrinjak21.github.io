@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija</title>
+    <link rel="stylesheet" href="\Galerija\style_galerija.css">
+    <link rel="icon" type="image/x-icon" href="Logo_Plitvice_Lakes_National_Park">
+
+</head>
+<body>
+     <!-- Navbar HTML -->
+  <div class='content-wrapper'>
+    <div class='navmenu'>
+     <form action='/search' autocomplete='off' id='search-form' method='get'>
+  <input name='q' placeholder='Search here...' size='15' type='text'/>
+  <input id='button-submit' type='submit' value='Search'/>
+          </form>
+      <span id='menu'><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAC9JREFUeNpi/P//PwM1AQsQU9VEJgYqg8FvICgMGUeel0eTzWiyGU02Qz/ZAAQYAOPcBjEdYroKAAAAAElFTkSuQmCC'  /></span>
+      <nav id='navbar' itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement'>
+      <ul class='navbar'>
+          <li><a href='\Pocetna\index_pocetna.html' itemprop='url' title='Home'><span itemprop='name'>Početna</span></a></li>
+          <li><a href='' itemprop='url' title='Home'><span itemprop='name'>O nama</span></a></li>
+          <li><a href='\Galerija\index_galerija.html' itemprop='url' title='Home'><span itemprop='name'>Galerija</span></a></li>
+          
+        </li>
+          
+            <li><a href='#7' itemprop='url' title='Home'><span itemprop='name'>Kontant</span></a></li>
+               </ul>
+  </nav>
+  </div>
+  </div>
+  <div style='clear: both;'/>
+         <!-- End Navbar HTML -->    
+          </div>
+      </div>
+      </div>
+  </section>
+  
+<br></br>
+
+<H2>Galerija fotografija</H2><br>
+<h1> Ljepote Plitvičkih jezera</h1>
+
+<!-- slike -->
+<div class="cont s--inactive">
+    <!-- cont inner start -->
+    <div class="cont__inner">
+      <!-- start -->
+      <div class="card">
+        <div class="overflow">
+          <div class="inner">
+            <div class="bg"></div>
+            <div class="preview-cont">
+              <h2 class="heading">Ljepota</h2>
+            </div>
+            <div class="card__content">
+              <div class="card__text">Prirodna ljepota samog područja</div>
+              <div class="card__close-btn"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- start -->
+      <div class="card">
+        <div class="overflow">
+          <div class="inner">
+            <div class="bg"></div>
+            <div class="preview-cont">
+              <h2 class="heading">Čistoća</h2>
+            </div>
+            <div class="card__content">
+              <div class="card__text">Whatever</div>
+              <div class="card__close-btn"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- start -->
+      <div class="card">
+        <div class="overflow">
+          <div class="inner">
+            <div class="bg"></div>
+            <div class="preview-cont">
+              <h2 class="heading"></h2>
+            </div>
+            <div class="card__content">
+              <div class="card__text">Whatever</div>
+              <div class="card__close-btn"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- start -->
+      <div class="card">
+        <div class="overflow">
+          <div class="inner">
+            <div class="bg"></div>
+            <div class="preview-cont">
+              <h2 class="heading">Section 4</h2>
+            </div>
+            <div class="card__content">
+              <div class="card__text">Whatever</div>
+              <div class="card__close-btn"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+      <!-- start -->
+      <div class="card">
+        <div class="overflow">
+          <div class="inner">
+            <div class="bg"></div>
+            <div class="preview-cont">
+              <h2 class="heading">Section 5</h2>
+            </div>
+            <div class="card__content">
+              <div class="card__text">Whatever</div>
+              <div class="card__close-btn"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+    </div>
+    <!-- cont inner end -->
+  </div>
+
+
+
+
+
+
+<script src="script.js"></script>
+<script>
+  $(window).scroll(function() {
+      if ($(document).scrollTop() > 50) {
+          $('.nav').addClass('affix');
+          console.log("OK");
+      } else {
+          $('.nav').removeClass('affix');
+      }
+  });
+</script>
+<br>
+    
+</body>
+</html>
