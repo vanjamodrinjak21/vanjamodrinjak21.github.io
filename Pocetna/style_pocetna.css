@@ -198,11 +198,13 @@ body{
   }
 
   p{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 15%;
-    margin-right: 15%;
+    display: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 20px;
+    text-align: justify;
+    color: #ffff;
 
     
 
@@ -212,3 +214,10 @@ body{
     margin: 0;
     padding: 0;
   }
+bold{
+   font-weight: 700;
+  }
+
+naslov{
+
+}
